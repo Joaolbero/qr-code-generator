@@ -1,0 +1,16 @@
+[project]
+name = "qr-code-generator"
+version = "0.1.0"
+description = "CLI and Web QR code generator (PT-BR/EN)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "João Vitor Albero", email = "contato.joaoalbero@gmail.com" }]
+dependencies = [
+  "segno==1.6.1",
+  "fastapi==0.115.2",
+  "uvicorn==0.30.6",
+  "Pillow==10.4.0"
+]
+
+[tool.black]
+line-length = 88

@@ -1,0 +1,5 @@
+segno==1.6.1
+fastapi==0.115.2
+uvicorn==0.30.6
+Pillow==10.4.0
+pip install python-multipart
