@@ -1,27 +1,56 @@
+<p align="center">
+  <img src="./icon/icon.png" alt="Project Icon" width="200" height="200">
+</p>
+
 # 🧩 QR Code Generator / Gerador de QR Code
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.115.2-success)
-![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
-
-**EN:** Simple, modern CLI + Web API to generate QR Codes (text/URL, Wi-Fi, vCard) using [Segno](https://pypi.org/project/segno/).  
-**PT-BR:** CLI + API Web simples e moderna para gerar QR Codes (texto/URL, Wi-Fi, vCard) utilizando [Segno](https://pypi.org/project/segno/).
-
----
-
-## Features / Recursos
-
-- Generate QR Codes as **PNG**, **SVG**, **PDF** or **EPS**
-- Error correction levels: **L, M, Q, H**
-- Wi-Fi and vCard support via helpers
-- Command-line interface (CLI) and Web interface (FastAPI)
-- Clean and modular code structure
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-active-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PROJECT_TYPE-automation-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/TECH_STACK-Python_3.10+_/_FastAPI-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/DEPENDENCIES-Segno,_FastAPI,_Uvicorn-purple?style=for-the-badge">
+  <img src="https://img.shields.io/badge/FEATURES-CLI_&_Web_API-lightgrey?style=for-the-badge">
+  <img src="https://img.shields.io/badge/LICENSE-MIT-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/VERSION-1.0.0-red?style=for-the-badge">
+  <a href="https://github.com/Joaolbero">
+    <img src="https://img.shields.io/badge/AUTHOR-João_Albero-black?style=for-the-badge">
+  </a>
+  <img src="https://img.shields.io/github/last-commit/Joaolbero/qr-code-generator?style=for-the-badge">
+</p>
 
 ---
 
-## Installation / Instalação
+## 📄 Descrição / Description
 
-### Clone the repository / Clone o repositório
-```bash
-git clone https://github.com/Joaolbero/qr-code-generator.git
-cd qr-code-generator
+| 🇧🇷 **Descrição (PT-BR)** | 🇺🇸 **Description (EN)** |
+| --- | --- |
+| CLI + API Web moderna para gerar QR Codes em múltiplos formatos (PNG, SVG, PDF, EPS), com suporte a Wi-Fi, vCard, níveis de correção de erro e uma estrutura de código modular usando Segno e FastAPI. | Modern CLI + Web API to generate QR Codes in multiple formats (PNG, SVG, PDF, EPS), supporting Wi-Fi, vCard, error correction levels and a modular codebase built with Segno and FastAPI. |
+
+---
+
+## ✨ Funcionalidades / Features
+
+| 🇧🇷 **Recursos (PT-BR)** | 🇺🇸 **Features (EN)** |
+| --- | --- |
+| • Geração de QR Code em PNG, SVG, PDF e EPS<br>• Níveis de correção de erro: L, M, Q, H<br>• Suporte a Wi-Fi e vCard via helpers<br>• Interface de linha de comando (CLI)<br>• API Web usando FastAPI<br>• Estrutura de código limpa e modular | • Generate QR Codes as PNG, SVG, PDF and EPS<br>• Error correction levels: L, M, Q, H<br>• Wi-Fi and vCard helpers<br>• Command-line interface (CLI)<br>• Web API built with FastAPI<br>• Clean and modular code structure |
+
+---
+
+## 🧩 Instalação / Installation
+
+| 🇧🇷 **Instalação (PT-BR)** | 🇺🇸 **Installation (EN)** |
+| --- | --- |
+| Clone o repositório e instale as dependências necessárias antes de executar o projeto. | Clone the repository and install the required dependencies before running the project. |
+
+### 📥 Passos
+
+    git clone https://github.com/Joaolbero/qr-code-generator.git
+    cd qr-code-generator
+    pip install -r requirements.txt
+
+---
+
+## 👤 Autor | Author  
+
+Criado por João Albero · 2025  
+Created by João Albero · 2025
